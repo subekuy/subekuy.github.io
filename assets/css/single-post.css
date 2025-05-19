@@ -1,0 +1,71 @@
+body {
+background: #edeff0;
+}
+.unrounded{
+border-radius:0;
+}/*.container{border: 2px solid #fff;}*/
+#twitre{
+color:#999;
+}
+#twitre:hover{
+color:#666;
+}
+@media (min-width:768px){
+.cari {
+padding-right:0;
+}
+}
+i.fa {
+padding-right:5px;
+}
+.gulir-samping{
+overflow-x: auto;
+white-space: nowrap;
+margin-bottom: 15px
+}
+.isi-gulir {
+display: inline-block;
+width: 120px;
+margin-right: 0;
+margin-bottom: 0;
+overflow: hidden;
+}
+.isi-gulir:last-child {
+margin-right: 0;
+}
+.nama-p{
+padding-top: 0;
+padding: 5px;
+white-space: normal;
+line-height: 1.2;
+}
+.thumbnail img{
+padding: 0;aspect-ratio: 1 / 1;
+}
+.isi-gulir h5{
+align-items:center;
+}
+/* Pemeran */
+.cast {
+background: white;
+}
+.cast > tbody > tr > td {
+vertical-align: middle;
+font-size: 16px;
+text-align: center;
+}
+.cast img {
+width: 90px;
+height: 90px;
+object-fit: cover;
+}
+@media (max-width:768px){
+.cast img {
+width: 50px;
+height: 50px;
+object-fit: cover;
+}
+.cast > tbody > tr > td {
+font-size: 12px;
+}
+}
