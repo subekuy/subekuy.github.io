@@ -18,15 +18,16 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/single-post.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
     
   </head>
 
   <body>
       <!-- Navigasi Bar -->
         <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container">
+            
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -34,13 +35,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><i class="fa fa-arrow-left"></i></a>
+              <a class="navbar-brand" href="#">Subekuy</a>
             </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-mobile">
               <ul class="nav navbar-nav">
-                <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Twitter</a></li>
                 <li><a href="#">Link</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -58,6 +59,7 @@
                 <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
               </form>
             </div><!-- /.navbar-collapse -->
+          
           </div><!-- /.container -->
         </nav>
 
@@ -65,18 +67,51 @@
 <article class="container">
   
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="panel panel-default unrounded">
-        <header class="panel-heading" id="judul">
-          <h1 class="panel-title">Musahsino Rondo</h1>
-        </header>
-        <div class="panel-body">
-          Basic panel example
-        </div>
-      </div>
-    </div>
+     
+         <div class="col-sm-3 poster">
+           <div class="thumbnail unrounded">
+             <img src="assets/images/drama/musashinorondo.webp" alt="poster">
+           </div>
+         </div>
+         <div class="col-sm-9">
+           <div class="panel panel-default unrounded">
+             <div class="panel-body">
+               <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 poster-m">
+                       <div class="thumbnail unrounded">
+                         <img src="assets/images/drama/musashinorondo.webp" alt="poster">
+                       </div>
+                     </div>
+               <h1 class="judul-postingan">Musashino Rondo</h1><hr>
+                   <div class="row">
+                     
+                      <div class="col-xs-12 col-sm-6">
+                        <ul class="list-unstyled un-mb">
+                          <li><strong>Native Title:&nbsp;</strong>ムサシノロンド</li>
+                          <li><strong>Genre:&nbsp;</strong>Romance</li>
+                          <li><strong>Episodes:&nbsp;</strong>#</li>
+                          <li><strong>TV:&nbsp;</strong>TV Asahi</li>
+                          <li><strong>Air Dates:&nbsp;</strong>April 19, 2025 —</li>
+                          <li><strong>Season Year:&nbsp;</strong>Spring 2025</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <ul class="list-unstyled un-mb">
+                          <li><strong>Director:&nbsp;</strong>Motohashi Keita</li>
+                          <li><strong>Screenwriter:&nbsp;</strong>Shimizu Yukako, Wakasugi Kanna</li>
+                          <li><strong>Producer:&nbsp;</strong>Miwa Yumiko</li>
+                          <li><strong>Composer:&nbsp;</strong>Shinoda Daisuke</li>
+                          <li><a href="link" class="ext-link" title="Official Site">Official Site<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        </ul>
+                      </div>
+                   </div>
+                  <h2 class="subjudul">Synopsis</h2>
+                 <p>Agawa Ryuhei has been in love with Musashibara Tamaki, a woman 10 years older than him, since he was a child. He confessed to her twice but she turned him down. As 10 years pass without his feelings being reciprocated, Ryuhei feels dejected and begins moving away from his feelings for her. However, when she falls in love at first sight her brother’s colleague and Ryuhei is made aware of a love rival, his passion is reignited and he begins an aggressive approach to gain her love.</p>
+               <a href="https://drama-otaku.com/drama/musashino-rondo/" class="my-btn" title="source">Source<i class="fa fa-external-link" aria-hidden="true"></i></a>
+             </div>              
+           </div>
+         </div>
     
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-sm-9 col-sm-offset-3">
       <div class="panel panel-default unrounded">
         <div class="panel-body">
           Basic panel example yang nanti akan tampil
@@ -86,7 +121,7 @@
   </div> <!-- .row -->
   
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-sm-9 col-sm-offset-3">
       
       <div style="max-height: 200px; overflow-x: auto; margin-bottom: 15px; border-radius: 4px; white-space: nowrap;">
         <div class="list-group" style="margin-bottom: 0;">
@@ -117,7 +152,8 @@
         Tambahkan lebih banyak item jika perlu
       </div> -->
       
-       <table class="table table-bordered table-hover cast">
+      <!-- Pemeran -->
+       <table class="table table-bordered cast">
          <thead>
            <tr>
              <th colspan="5" class="text-center">Cast</th>
@@ -168,16 +204,20 @@
           </tr>
          </tbody>
         </table>
-      
+        
     </div>
   </div>
   
 </article> <!-- .container -->
 
-<footer style="color: #999;">
+<footer style="color: #999; margin-bottom: 20px;">
   <div class="container">
-    &copy; <span id="year"></span> | <a href="#" class="ftr">Ini Tanda Air</a>
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-3">
+          &copy; <span id="year"></span> | <a href="#" class="ftr">Ini Tanda Air</a>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+      </div>
+    </div>
   </div> 
 </footer>
     

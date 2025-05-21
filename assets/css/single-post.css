@@ -1,9 +1,50 @@
 body {
-background: #edeff0;
+background: #fff /*rgba(237, 239, 240, 1)*/;
+  font-family: Roboto, sans-serif;
+  color: black;
+}
+::selection {
+background: rgba(0,0,0,0.7);
+color: #fff;
+}
+::-moz-selection {
+background: rgba(0,0,0,0.7);
+color: #fff;
+}
+a {
+transition: all 0.2s ease;  
+}
+a:hover,
+a:focus {
+color: #adadad;
+}
+.judul-postingan {
+font-size: 26px;
+font-weight: 600;
+margin-top: 10px;
+}
+.subjudul {
+font-size: 24px;
+font-weight: 600;
+}
+a.ext-link {
+color: black;
+  font-weight: 500;
+}
+a.ext-link:hover,
+a.ext-link:focus {
+color: #adadad;
+text-decoration: none;
+}
+hr {
+border-top: 1.5px solid #eee;
+}
+.poster-m {
+display: none;
 }
 .unrounded{
 border-radius:0;
-}/*.container{border: 2px solid #fff;}*/
+}
 #twitre{
 color:#999;
 }
@@ -17,8 +58,9 @@ padding-right:0;
 }
 i.fa {
 padding-right:5px;
+padding-left:5px;
 }
-.gulir-samping{
+/*.gulir-samping{
 overflow-x: auto;
 white-space: nowrap;
 margin-bottom: 15px
@@ -39,25 +81,53 @@ padding: 5px;
 white-space: normal;
 line-height: 1.2;
 }
-.thumbnail img{
-padding: 0;aspect-ratio: 1 / 1;
-}
 .isi-gulir h5{
 align-items:center;
+}*/
+.un-mb {
+  margin-bottom: 0;
 }
 /* Pemeran */
 .cast {
 background: white;
 }
+.cast > thead > tr > th {
+font-size: 18px;
+}
 .cast > tbody > tr > td {
 vertical-align: middle;
-font-size: 16px;
+font-size: 14px;
 text-align: center;
 }
 .cast img {
 width: 90px;
 height: 90px;
 object-fit: cover;
+}
+.my-btn {
+padding: 4px 8px;
+border: 1.5px solid #adadad;
+background-color: white;
+font-size: 12px;
+font-weight: 500;  
+color: black;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.2s linear;
+display: inline-block;
+}
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active {
+  border: 1.5px solid #000;
+background-color: black;
+color: white;
+}
+a.my-btn {
+text-decoration: none;  
+}
+a.my-btn i.fa {
+padding-right: 0;
 }
 @media (max-width:768px){
 .cast img {
@@ -67,5 +137,11 @@ object-fit: cover;
 }
 .cast > tbody > tr > td {
 font-size: 12px;
+}
+.poster {
+display: none;
+}
+.poster-m {
+display: block;
 }
 }
